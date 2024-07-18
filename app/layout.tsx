@@ -10,6 +10,7 @@ const roboto = Roboto({
 const roboto_mono = Roboto_Mono({
   variable: '--font-roboto-mono',
   subsets: ["latin"] });
+  
 const playfair_display = Playfair_Display({
   variable: '--font-playfair-display',
   subsets: ["latin"] });
@@ -27,7 +28,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${roboto.variable} ${roboto_mono.variable} ${playfair_display.variable}`}>{children}</body>
+      <body className={`${roboto.variable} ${roboto_mono.variable} ${playfair_display.variable} bg-background`}>{children}</body>
     </html>
   );
 }
