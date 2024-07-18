@@ -1,11 +1,10 @@
 import Image from "next/image";
+import Header from "@/components/partials/Header"
 
 export default function Home() {
   return (
-    <>
-      <p className="font-roboto">Hello World</p>
-      <p className="font-roboto_mono">Hello World</p>
-      <p className="font-playfair_display">Hello World</p>
-    </>
+    <div className="fill-background ">
+      <Header></Header>
+    </div>
   );
 }
