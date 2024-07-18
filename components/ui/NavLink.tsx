@@ -5,7 +5,7 @@ type NavLinkProps = {
 
 const NavLink = (props: NavLinkProps) => {
   return (
-    <div className={`font-roboto_mono font-medium text-base mx-1 px-4 py-2 text-foreground hover:bg-foreground hover:text-background ease-in-out rounded-2xl duration-200 cursor-pointer ${props.className}`}>
+    <div className={`max-w-fit font-roboto_mono font-medium text-base mx-1 px-4 py-1.5 text-foreground hover:bg-foreground hover:text-background hover:scale-105 ease-in-out rounded-xl duration-200 cursor-pointer ${props.className}`}>
         <a href="/">{props.title}</a>
     </div>
   )
