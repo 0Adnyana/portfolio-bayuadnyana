@@ -26,6 +26,7 @@ const config: Config = {
         'primary': '#3B59C4',
         'secondary': '#30348C',
         'accent': '#EB264C',
+        'accent-darker': '#972037',
       },
     },
   },
