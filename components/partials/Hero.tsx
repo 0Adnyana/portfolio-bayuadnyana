@@ -1,16 +1,15 @@
 import { GrGithub, GrInstagram, GrLinkedin, GrMail } from "react-icons/gr";
 import NavLink from "../ui/NavLink";
 import Image from "next/image";
-import ProfilePicture from "@/public/image.png"
+import ProfilePicture from "@/public/profilePicture.png"
 
 const Hero = () => {
   return (
     <section className="md:w-[70%] mx-auto flex flex-row items-center justify-between">
       <div className="flex flex-col space-y-4">
-
         {/* Name and Description */}
         <h1 className="font-playfair_display font-bold text-5xl text-foreground">Bayu Adnyana</h1>
-        <p className="font-roboto font-normal text-base text-foreground">I’m a student, video editor, aspiring developer, and deep learning enthusiast.</p>
+        <p className="font-roboto font-normal text-lg text-foreground">I’m a student, video editor, aspiring developer, and deep learning enthusiast.</p>
 
         {/* Contact Button */}
         <NavLink title="Contact Me" className="text-foreground bg-primary hover:bg-secondary hover:text-foreground-darker"></NavLink>
