@@ -5,8 +5,6 @@ import ProfilePicture from "@/public/profilePicture.png"
 import SocialLink from "../ui/SocialLink";
 
 const Hero = () => {
-  const socialStyle = "text-foreground size-6 hover:scale-110 cursor-pointer ease-in-out duration-200";
-
   return (
     <section className="md:w-[70%] mx-auto flex flex-row items-center justify-between">
       <div className="flex flex-col space-y-4">
