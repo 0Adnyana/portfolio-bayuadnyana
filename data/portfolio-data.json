@@ -1,12 +1,68 @@
-[
-    {
-        "imgSrc": "/placeholderImage.jpg",
-        "imgAlt": "placeholder image",
-        "name": "Portfolio Website",
-        "year": "2024",
-        "link": "instagram.com/bayu.adnyana0",
-        "linkTitle": "instagram.com",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores tempora unde dolorum, earum corrupti ipsa debitis quod. Consequuntur, ipsa nesciunt, dolorem, distinctio debitis nemo magni facere quidem a quos mollitia?",
-        "client": "Bayu Adnyana"
-    }
-]
+{
+    "tech": [
+        {
+            "id": 1,
+            "imgSrc": "/placeholderImage.jpg",
+            "imgAlt": "placeholder image",
+            "name": "Personal ePortfolio Website",
+            "year": "2024",
+            "link": "bayuadnyana.vercel.app",
+            "linkTitle": "bayuadnyana.vercel.app",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores tempora unde dolorum, earum corrupti ipsa debitis quod. Consequuntur, ipsa nesciunt, dolorem, distinctio debitis nemo magni facere quidem a quos mollitia?",
+            "client": "Bayu Adnyana",
+            "tags": ["Personal", "React", "Self Initiated"]
+        },
+        {
+            "id": 2,
+            "imgSrc": "/placeholderImage.jpg",
+            "imgAlt": "placeholder image",
+            "name": "Hotel Scout",
+            "year": "2024",
+            "link": "/",
+            "linkTitle": "placeholder",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores tempora unde dolorum, earum corrupti ipsa debitis quod. Consequuntur, ipsa nesciunt, dolorem, distinctio debitis nemo magni facere quidem a quos mollitia?",
+            "client": "Bayu Adnyana",
+            "tags": ["Group Project", "College", "React", "API"]
+        }
+    ],
+    "creative": [
+        {
+            "id": 1,
+            "imgSrc": "/placeholderImage.jpg",
+            "imgAlt": "placeholder image",
+            "name": "Personal ePortfolio Design",
+            "year": "2024",
+            "link": "/",
+            "linkTitle": "placeholder",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores tempora unde dolorum, earum corrupti ipsa debitis quod. Consequuntur, ipsa nesciunt, dolorem, distinctio debitis nemo magni facere quidem a quos mollitia?",
+            "client": "Bayu Adnyana",
+            "tags": ["Personal", "Figma", "Design", "Self Initiated"]
+        },
+        {
+            "id": 2,
+            "imgSrc": "/placeholderImage.jpg",
+            "imgAlt": "placeholder image",
+            "name": "bayuarchive",
+            "year": "2023",
+            "link": "instagram.com/bayuarchive",
+            "linkTitle": "instagram.com/bayuarchive",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores tempora unde dolorum, earum corrupti ipsa debitis quod. Consequuntur, ipsa nesciunt, dolorem, distinctio debitis nemo magni facere quidem a quos mollitia?",
+            "client": "Bayu Adnyana",
+            "tags": ["Personal", "Video Editing", "Self Initiated"]
+        },
+        {
+            "id": 3,
+            "imgSrc": "/placeholderImage.jpg",
+            "imgAlt": "placeholder image",
+            "name": "Dungbeetle.agency",
+            "year": "2023",
+            "link": "instagram.com/dungbeetleagency",
+            "linkTitle": "instagram.com/dungbeetleagency",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores tempora unde dolorum, earum corrupti ipsa debitis quod. Consequuntur, ipsa nesciunt, dolorem, distinctio debitis nemo magni facere quidem a quos mollitia?",
+            "client": "Bayu Adnyana",
+            "tags": ["Work", "Video Editing"]
+        }
+    ]
+}
+
+
