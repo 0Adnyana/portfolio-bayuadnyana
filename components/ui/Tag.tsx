@@ -4,7 +4,7 @@ type TagProps = {
 }
 const Tag = (props: TagProps) => {
   return (
-    <p className="text-inherit font-roboto font-normal text-xs p-2 border-2 border-inherit rounded-xl opacity-75">{props.title}</p>
+    <p className="text-inherit font-roboto font-normal text-xs p-2 border-[1px] border-inherit rounded-xl opacity-50">{props.title}</p>
   )
 }
 
