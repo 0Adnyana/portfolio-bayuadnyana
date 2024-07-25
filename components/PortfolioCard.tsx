@@ -6,14 +6,15 @@ import { cn } from "@/lib/utils"
 
 
 type PortfolioCardProps = {
-  imgSrc: StaticImageData;
+  imgSrc: string;
   imgAlt: string;
   name: string;
   year: string;
   link: string;
   linkTitle: string;
+  description: string;
   client: string;
-  children: React.ReactNode;
+  children?: React.ReactNode;
 }
 
 const PortfolioCard = (props: PortfolioCardProps) => {
@@ -43,10 +44,10 @@ const PortfolioCard = (props: PortfolioCardProps) => {
 
       {/* expanded div */}
       <div className={cn("w-full h-fit px-6 py-4 space-x-4 flex flex-row justify-center rounded-xl bg-secondary ", isClicked ? "" : "hidden")}>
-        <Image src={props.imgSrc} alt={props.imgAlt} className="rounded-xl w-[320px] h-[180px]"></Image>
+        <Image src={props.imgSrc} alt={props.imgAlt} width={320} height={180} className="rounded-xl"></Image>
         <div className="min-h-full max-h-fit flex flex-col justify-between space-y-4">
           <div className="space-y-2">
-            <p className="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores tempora unde dolorum, earum corrupti ipsa debitis quod. Consequuntur, ipsa nesciunt, dolorem, distinctio debitis nemo magni facere quidem a quos mollitia?</p>
+            <p className="text-justify">{props.description}</p>
             <p className="font-bold text-sm">Client: {props.client}</p>
           </div>
           <div className="flex flex-row-reverse space-x-1">
