@@ -50,7 +50,7 @@ const PortfolioCard = (props: PortfolioCardProps) => {
             <p className="text-justify">{props.description}</p>
             <p className="font-bold text-sm">Client: {props.client}</p>
           </div>
-          <div className="flex flex-row-reverse space-x-1">
+          <div className="flex flex-row justify-end space-x-1">
             {props.children}
           </div>
         </div>

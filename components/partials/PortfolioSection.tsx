@@ -27,7 +27,7 @@ const PortfolioSection = () => {
                 </div>
             </div>
             
-            <ListPortfolio></ListPortfolio>
+            <ListPortfolio isTech={isTech} ></ListPortfolio>
         </div>
   )
 }

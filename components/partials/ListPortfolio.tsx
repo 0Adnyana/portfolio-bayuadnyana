@@ -1,19 +1,26 @@
 import PortfolioCard from "../PortfolioCard"
 import Tag from "../ui/Tag"
-import PlaceholderImage from "@/public/placeholderImage.jpg"
+
 import PortfolioData from "@/data/portfolio-data.json"
 
-const data = PortfolioData;
+type ListPortfolioProps = {
+  isTech: boolean;
+}
 
-const ListPortfolio = () => {
+const ListPortfolio = (props: ListPortfolioProps) => {
+  if (props.isTech) {
+    var data = PortfolioData.tech;
+  } else {
+    var data = PortfolioData.creative;
+  }
   return (
-    <div className="w-full grid grid-flow-row grid-cols-1 space-y-2">
-      <ul>
+    <div className="w-full grid grid-flow-row grid-cols-1">
+      <ul className="space-y-2">
         {
-          data.map((data, key) => {
+          data.map((data) => {
             return(
               <PortfolioCard 
-                key={key}
+                key={data.id}
                 imgSrc= {data.imgSrc}
                 imgAlt= {data.imgAlt}
                 name= {data.name}
@@ -22,7 +29,13 @@ const ListPortfolio = () => {
                 linkTitle= {data.linkTitle}
                 description= {data.description}
                 client= {data.client}
-              />
+              >{
+                data.tags.map((tag, key) => {
+                  return (
+                    <Tag key={key} title={tag}/>
+                  )
+                })
+              }</PortfolioCard>
             )
           })
         }
