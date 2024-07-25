@@ -8,8 +8,8 @@ const Header = () => {
         <a href="/" className="font-playfair_display font-bold text-2xl text-foreground">Bayu Adnyana</a>
         <div className="flex">
           <NavLink title="Home" className="text-foreground hover:bg-foreground hover:text-background"/>
-          <NavLink title="Portfolio" className="text-foreground hover:bg-foreground hover:text-background"/>
           <NavLink title="About" className="text-foreground hover:bg-foreground hover:text-background"/>
+          <NavLink title="Portfolio" className="text-foreground hover:bg-foreground hover:text-background"/>
           <NavLink title="Contact" className="text-foreground bg-accent hover:brightness-90"/>
         </div>
       </div>
