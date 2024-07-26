@@ -18,8 +18,8 @@ const PortfolioSection = () => {
     }
 
     return (
-        <div className="w-[70%] mx-auto flex flex-col items-center space-y-6" id="portfolio">
-            <div className="flex flex-col items-center space-y-2">
+        <section className="w-[70%] mx-auto flex flex-col items-center space-y-6" id="portfolio">
+            <div className="flex flex-col items-center">
                 <SectionTitle title="Portfolio"/>
                 <div className="flex flex-row space-x-2 justify-center">
                     <Button className={cn("bg-background-lighter hover:brightness-90", isTech ? "bg-foreground" : "")} onClick={handlePortfolioType}>Tech</Button>
@@ -28,7 +28,7 @@ const PortfolioSection = () => {
             </div>
             
             <ListPortfolio isTech={isTech} ></ListPortfolio>
-        </div>
+        </section>
   )
 }
 
