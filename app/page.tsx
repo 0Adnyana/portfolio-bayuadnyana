@@ -3,6 +3,7 @@ import Hero from "@/components/partials/Hero";
 import AboutMe from "@/components/partials/AboutMe";
 import PlaceholderImage from "@/public/placeholderImage.jpg";
 import PortfolioSection from "@/components/partials/PortfolioSection"
+import ContactSection from "@/components/partials/ContactSection";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
         imgSrc={PlaceholderImage}
         imgAlt="placeholder image"/>
       <PortfolioSection></PortfolioSection>
+      <ContactSection></ContactSection>
       
     </div>
   );
