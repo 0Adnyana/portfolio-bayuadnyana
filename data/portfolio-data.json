@@ -11,18 +11,6 @@
             "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores tempora unde dolorum, earum corrupti ipsa debitis quod. Consequuntur, ipsa nesciunt, dolorem, distinctio debitis nemo magni facere quidem a quos mollitia?",
             "client": "Bayu Adnyana",
             "tags": ["Personal", "React", "Self Initiated"]
-        },
-        {
-            "id": 2,
-            "imgSrc": "/placeholderImage.jpg",
-            "imgAlt": "placeholder image",
-            "name": "Hotel Scout",
-            "year": "2024",
-            "link": "/",
-            "linkTitle": "placeholder",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores tempora unde dolorum, earum corrupti ipsa debitis quod. Consequuntur, ipsa nesciunt, dolorem, distinctio debitis nemo magni facere quidem a quos mollitia?",
-            "client": "Bayu Adnyana",
-            "tags": ["Group Project", "College", "React", "API"]
         }
     ],
     "creative": [
