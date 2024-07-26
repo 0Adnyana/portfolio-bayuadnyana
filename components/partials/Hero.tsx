@@ -16,17 +16,17 @@ const Hero = () => {
         <NavLink title="Contact Me" className="text-foreground bg-primary hover:brightness-90"></NavLink>
 
         {/* SOCIALS LINKS */}
-        <div className="flex flex-wrap space-x-4">
+        <div className="flex flex-row space-x-4">
           <SocialLink href="https://github.com/0Adnyana">
-            <GrGithub size="large"/>
+            <GrGithub className="size-6"/>
           </SocialLink>
           <SocialLink href="https://instagram.com/bayu.adnyana0">
-            <GrInstagram size="large"/>
+            <GrInstagram className="size-6"/>
           </SocialLink>
           <SocialLink href="https://linkedin.com/in/bayuadnyana">
-            <GrLinkedin size="large"/>
+            <GrLinkedin className="size-6"/>
           </SocialLink><SocialLink href="https://bayup.adnyana@gmail.com">
-            <GrMail size="large"/>
+            <GrMail className="size-6"/>
           </SocialLink>
         </div>
       </div>
