@@ -1,8 +1,10 @@
+type InputProps = {
+  className?: string;
+}
 
-
-const Input = () => {
+const Input = (props: InputProps) => {
   return (
-    <input type="text" />
+    <input type="text" className={`bg-background-lighter ${props.className}`}/>
   )
 }
 
