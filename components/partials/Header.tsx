@@ -10,7 +10,7 @@ const Header = () => {
           <NavLink title="Home" className="text-foreground hover:bg-foreground hover:text-background" />
           <NavLink title="About" className="text-foreground hover:bg-foreground hover:text-background" href="#about"/>
           <NavLink title="Portfolio" className="text-foreground hover:bg-foreground hover:text-background" href="#portfolio"/>
-          <NavLink title="Contact" className="text-foreground bg-accent hover:brightness-90"/>
+          <NavLink title="Contact" className="text-foreground bg-accent hover:brightness-90" href="#contact"/>
         </div>
       </div>
       <hr className="border-background-lighter"/>
