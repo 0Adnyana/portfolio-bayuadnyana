@@ -10,7 +10,7 @@ type AboutMeProps = {
 const AboutMe = (props: AboutMeProps) => {
   return (
     <section id="about" className="md:w-[70%] mx-auto flex flex-row border-2 border-background-lighter rounded-xl py-8 px-12 space-x-8">
-      <div className="md:w-[65%] min-h-full flex flex-col space-y-4">
+      <div className="md:w-[65%] min-h-full flex flex-col">
         <SectionTitle title="About Me"></SectionTitle>
         <p className="font-roboto font-normal text-base text-foreground text-justify">{props.content}</p>
       </div>
