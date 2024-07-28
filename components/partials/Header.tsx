@@ -3,8 +3,8 @@ import NavLink from "../ui/NavLink";
 
 const Header = () => {
   return (
-    <header>
-      <div className="md:w-[70%] mx-auto flex items-center justify-between py-3">
+    <header className="fixed inset-x-0 top-0 z-50">
+      <div className="md:w-[70%] mx-auto flex items-center  justify-between py-3 bg-background">
         <a href="/" className="font-playfair_display font-bold text-2xl text-foreground">Bayu Adnyana</a>
         <div className="flex">
           <NavLink title="Home" className="text-foreground hover:bg-foreground hover:text-background" />
