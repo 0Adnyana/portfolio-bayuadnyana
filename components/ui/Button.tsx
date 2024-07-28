@@ -1,7 +1,7 @@
-type ButtonProps = {
-    className?: string;
-    children: React.ReactNode;
-    onClick?(event: React.MouseEvent<HTMLButtonElement>): void;
+type ButtonProps = React.ButtonHTMLAttributes<HTMLButtonElement> & {
+  className?: string;
+  children: React.ReactNode;
+  onClick?(event: React.MouseEvent<HTMLButtonElement>): void;
 }
 
 const Button = (props: ButtonProps) => {
