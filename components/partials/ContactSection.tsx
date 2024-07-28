@@ -1,4 +1,3 @@
-import Input from "../ui/Input"
 import SectionTitle from "../ui/SectionTitle"
 import Subtitle from "../ui/Subtitle"
 import BodyText from "../ui/BodyText"
@@ -9,15 +8,19 @@ import { GrGithub, GrInstagram, GrLinkedin } from "react-icons/gr";
 
 const ContactSection = () => {
   return (
-    <section className="w-[60%] mx-auto flex flex-row border-background-lighter border-2 rounded-xl py-8 px-12 space-x-8 text-foreground" id="contact">
-      <div className="w-[60%] flex flex-col space-y-3">
-            <SectionTitle title="Send me a message!"></SectionTitle>
-            <Input className="border-b-2"></Input>
-            <Input className="border-b-2"></Input>
-            <Input className="h-32"></Input>
-            <Button className="bg-accent max-w-full">Send message</Button>
+    <section className="w-fit mx-auto flex flex-row border-background-lighter border-2 rounded-xl py-8 px-12 space-x-8 text-foreground" id="contact">
+      <div className="w-96 space-y-3">
+        <SectionTitle title="Send me a message!"></SectionTitle>
+        <form action="" className="flex flex-col space-y-3">
+          <input type="text" placeholder="Name" className="bg-background-lighter border-b-2 border-foreground"/>
+          <input type="text" placeholder="Email" className="bg-background-lighter border-b-2 border-foreground"/>
+          <textarea name="" id="" placeholder="Message" className="h-32 bg-background-lighter border-b-2 border-foreground"></textarea>
+          <Button className="bg-accent max-w-full">Send message</Button>
+        </form>
+        
       </div>
-      <div className="flex flex-col justify-between">
+      
+      <div className="w-fit flex flex-col justify-between">
         <div className="space-y-2">
           <Subtitle>Contact</Subtitle>
           <BodyText className="leading-none">bayup.adnyana@gmail.com</BodyText>
