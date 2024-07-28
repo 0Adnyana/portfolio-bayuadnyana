@@ -7,7 +7,7 @@ import ContactSection from "@/components/partials/ContactSection";
 
 export default function Home() {
   return (
-    <div className="fill-background space-y-20">
+    <div className="fill-background space-y-40">
       <Header></Header>
       <Hero></Hero>
       <AboutMe
