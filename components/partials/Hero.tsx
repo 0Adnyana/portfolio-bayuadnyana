@@ -6,14 +6,14 @@ import SocialLink from "../ui/SocialLink";
 
 const Hero = () => {
   return (
-    <section className="md:w-[70%] mx-auto flex flex-row items-center justify-between">
+    <section id="home" className="md:w-[70%] mx-auto scroll-m-20 flex flex-row items-center justify-between">
       <div className="flex flex-col space-y-4">
         {/* Name and Description */}
         <h1 className="font-playfair_display font-bold text-5xl text-foreground">Bayu Adnyana</h1>
         <p className="font-roboto font-normal text-lg text-foreground">I’m a student, video editor, aspiring developer, and deep learning enthusiast.</p>
 
         {/* Contact Button */}
-        <NavLink title="Contact Me" className="text-foreground bg-primary hover:brightness-90"></NavLink>
+        <NavLink title="Contact Me" className="text-foreground bg-primary hover:brightness-90" href="#contact"></NavLink>
 
         {/* SOCIALS LINKS */}
         <div className="flex flex-row space-x-4">
@@ -25,7 +25,7 @@ const Hero = () => {
           </SocialLink>
           <SocialLink href="https://linkedin.com/in/bayuadnyana">
             <GrLinkedin className="size-6"/>
-          </SocialLink><SocialLink href="https://bayup.adnyana@gmail.com">
+          </SocialLink><SocialLink href="mailto:bayup.adnyana@gmail.com">
             <GrMail className="size-6"/>
           </SocialLink>
         </div>

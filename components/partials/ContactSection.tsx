@@ -8,18 +8,20 @@ import { GrGithub, GrInstagram, GrLinkedin } from "react-icons/gr";
 
 const ContactSection = () => {
   return (
-    <section className="w-fit mx-auto flex flex-row border-background-lighter border-2 rounded-xl py-8 px-12 space-x-8 text-foreground" id="contact">
+    <section className="w-fit mx-auto scroll-m-20 flex flex-row border-background-lighter border-2 rounded-xl py-8 px-12 space-x-8 text-foreground" id="contact">
+      
+      {/* Message box */}
       <div className="w-96 space-y-3">
         <SectionTitle title="Send me a message!"></SectionTitle>
         <form action="" className="flex flex-col space-y-3">
-          <input type="text" placeholder="Name" className="bg-background-lighter border-b-2 border-foreground"/>
-          <input type="text" placeholder="Email" className="bg-background-lighter border-b-2 border-foreground"/>
-          <textarea name="" id="" placeholder="Message" className="h-32 bg-background-lighter border-b-2 border-foreground"></textarea>
+          <input type="text" placeholder="Name" className="placeholder:pl-1 bg-background-lighter p-1"/>
+          <input type="text" placeholder="Email" className="placeholder:pl-1 bg-background-lighter p-1"/>
+          <textarea name="" id="" placeholder="Message" className="h-32 placeholder:pl-1 bg-background-lighter p-1 resize-none"></textarea>
           <Button className="bg-accent max-w-full">Send message</Button>
         </form>
-        
       </div>
       
+      {/* Contact Information */}
       <div className="w-fit flex flex-col justify-between">
         <div className="space-y-2">
           <Subtitle>Contact</Subtitle>
@@ -29,6 +31,8 @@ const ContactSection = () => {
           <Subtitle>Based in</Subtitle>
           <BodyText className="leading-none">Bali, Indonesia</BodyText>
         </div>
+        
+        {/* Social Links */}
         <div className="space-y-2">
           <Subtitle>Connect</Subtitle>
           <div className="space-y-2">

@@ -18,7 +18,7 @@ const PortfolioSection = () => {
     }
 
     return (
-        <section className="w-[70%] mx-auto flex flex-col items-center space-y-6" id="portfolio">
+        <section className="w-[70%] mx-auto scroll-m-20 flex flex-col items-center space-y-6" id="portfolio">
             <div className="flex flex-col items-center">
                 <SectionTitle title="Portfolio"/>
                 <div className="flex flex-row space-x-2 justify-center">
