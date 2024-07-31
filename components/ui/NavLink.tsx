@@ -8,9 +8,12 @@ type NavLinkProps = {
 
 const NavLink = (props: NavLinkProps) => {
   return (
-    <Button className={props.className}>
-      <a href={props.href}>{props.title}</a>
-    </Button>
+    <a href={props.href}>
+      <Button className={props.className}>
+        {props.title}
+      </Button>
+    </a>
+    
   )
 }
 export default NavLink

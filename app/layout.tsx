@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Roboto, Roboto_Mono, Playfair_Display } from "next/font/google";
 import "./globals.css";
+import {Toaster} from "react-hot-toast"
 
 const roboto = Roboto({
   variable: '--font-roboto', 
@@ -28,7 +29,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="scroll-smooth">
-      <body className={`${roboto.variable} ${roboto_mono.variable} ${playfair_display.variable} bg-background`}>{children}</body>
+      <body className={`${roboto.variable} ${roboto_mono.variable} ${playfair_display.variable} bg-background`}>
+        {children}
+        <Toaster 
+          position="top-right"
+        />
+        </body>
     </html>
   );
 }

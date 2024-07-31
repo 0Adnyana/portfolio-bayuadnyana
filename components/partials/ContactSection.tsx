@@ -6,7 +6,7 @@ import BodyText from "../ui/BodyText"
 import SocialLink from "../ui/SocialLink"
 import { GrGithub, GrInstagram, GrLinkedin } from "react-icons/gr";
 import { FormEvent, useState } from "react"
-import { FaDiagramSuccessor } from 'react-icons/fa6'
+import toast from "react-hot-toast"
 
 
 const ContactSection: NextPage = () => {
@@ -37,9 +37,9 @@ const ContactSection: NextPage = () => {
       console.log(content.status)
 
       if (content.status === 200) {
-        console.log("SUCCESS") // PLACEHOLDER
-      } else if (content.status === 500) {
-        console.log("FAILED") // placeholder
+        toast.success("Message sent!")
+      } else if (content.status !== 200) {
+        toast.error(`Error ${content.status}`)
       }
 
       // Reset the form fields
