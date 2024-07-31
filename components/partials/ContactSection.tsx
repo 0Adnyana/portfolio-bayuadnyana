@@ -6,6 +6,7 @@ import BodyText from "../ui/BodyText"
 import SocialLink from "../ui/SocialLink"
 import { GrGithub, GrInstagram, GrLinkedin } from "react-icons/gr";
 import { FormEvent, useState } from "react"
+import { FaDiagramSuccessor } from 'react-icons/fa6'
 
 
 const ContactSection: NextPage = () => {
@@ -22,7 +23,7 @@ const ContactSection: NextPage = () => {
           message
       }
 
-      const rawResponse = await fetch('/api/submit.ts', {
+      const rawResponse = await fetch('/api/submit', {
           method: 'POST',
           headers: {
               'Accept': 'application/json',
@@ -33,7 +34,13 @@ const ContactSection: NextPage = () => {
       const content = await rawResponse.json();
 
       // print to screen
-      alert(content.data.tableRange)
+      console.log(content.status)
+
+      if (content.status === 200) {
+        console.log("SUCCESS") // PLACEHOLDER
+      } else if (content.status === 500) {
+        console.log("FAILED") // placeholder
+      }
 
       // Reset the form fields
       setMessage('')
