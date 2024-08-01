@@ -1,5 +1,5 @@
 "use client"
-import Image, {StaticImageData} from "next/image"
+import Image from "next/image"
 import Link from "./ui/Link"
 import React from "react"
 import { cn } from "@/lib/utils"
