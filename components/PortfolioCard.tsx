@@ -33,8 +33,8 @@ const PortfolioCard = (props: PortfolioCardProps) => {
   return (
     // div will expand when clicked
     <div className="w-full h-fit mx-auto flex flex-col justify-center rounded-xl bg-secondary ease-in-out duration-200 cursor-pointer text-foreground" onClick={handleClick}>
-      <div className="w-full h-16 px-4 space-x-2 flex flex-row items-center bg-primary rounded-xl drop-shadow-md ease-in-out duration-200 hover:brightness-90">
-        <div className="w-full flex flex-row space-x-2 items-center leading-none">
+      <div className="w-full h-16 px-4 space-x-2 flex flex-row items-center justify-between bg-primary rounded-xl drop-shadow-md ease-in-out duration-200 hover:brightness-90">
+        <div className="flex flex-row space-x-2 items-center leading-none">
           <p className="font-roboto font-light text-l border-r-[1px] p-2 pl-0 border-inherit">{props.year}</p>
           <Subtitle>{props.name}</Subtitle>
         </div>
