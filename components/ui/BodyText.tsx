@@ -5,7 +5,7 @@ type BodyTextProps = {
 
 const BodyText = (props: BodyTextProps) => {
   return (
-    <p className={`font-roboto font-normal text-base text-justify  ${props.className}`}>{props.children}</p>
+    <p className={`font-roboto font-normal text-base text-justify ${props.className}`}>{props.children}</p>
   )
 }
 
