@@ -9,6 +9,7 @@ const Header = () => {
         <div className="flex">
           <NavLink title="Home" className="text-foreground hover:bg-foreground hover:text-background" href="#home"/>
           <NavLink title="About" className="text-foreground hover:bg-foreground hover:text-background" href="#about"/>
+          <NavLink title="Experience" className="text-foreground hover:bg-foreground hover:text-background" href="#experience"/>
           <NavLink title="Portfolio" className="text-foreground hover:bg-foreground hover:text-background" href="#portfolio"/>
           <NavLink title="Contact" className="text-foreground bg-accent hover:brightness-90" href="#contact"/>
         </div>

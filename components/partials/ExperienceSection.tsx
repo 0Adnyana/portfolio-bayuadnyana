@@ -8,7 +8,7 @@ const data = ExperienceData;
 
 const ExperienceSection = () => {
   return (
-    <section className="w-[70%] mx-auto flex flex-col items-center space-y-2">
+    <section className="w-[70%] mx-auto scroll-m-20 flex flex-col items-center space-y-2" id="experience">
       <SectionTitle title="Experience"></SectionTitle>
       <ul className="space-y-3">
         {data.map((data) => {
