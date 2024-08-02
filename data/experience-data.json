@@ -6,16 +6,6 @@
         "employmentType": "Fulltime",
         "dateJoined": "Nov 2023",
         "dateLeave": "Mar 2024",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras egestas nunc lectus, ut ultricies lacus placerat nec. Donec augue lectus, rutrum a mattis ac, cursus at massa. Etiam pretium suscipit quam eu iaculis. Suspendisse ut velit id odio maximus laoreet. Praesent quis rutrum nisl."
-    },
-    {
-        "id": 2,
-        "companyName": "Dungbeetle.agency",
-        "jobRole": "Creative Video Lead",
-        "employmentType": "Fulltime",
-        "dateJoined": "Nov 2023",
-        "dateLeave": "Mar 2024",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras egestas nunc lectus, ut ultricies lacus placerat nec. Donec augue lectus, rutrum a mattis ac, cursus at massa. Etiam pretium suscipit quam eu iaculis. Suspendisse ut velit id odio maximus laoreet. Praesent quis rutrum nisl. "
-    }
-    
+        "description": "Created short-form videos for our clients' social media. Took part in shooting and editing content for the agency's Instagram page. Utilized Adobe Premiere Pro and implemented sound design into my work."
+    }   
 ]

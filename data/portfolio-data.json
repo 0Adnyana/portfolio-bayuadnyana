@@ -2,53 +2,65 @@
     "tech": [
         {
             "id": 1,
-            "imgSrc": "/placeholderImage.jpg",
-            "imgAlt": "placeholder image",
+            "imgSrc": "/assets/portfolio_images/eportfolio_screencapture.png",
+            "imgAlt": "Screen capture of Bayu Adnyana ePortfolio",
             "name": "Personal ePortfolio Website",
             "year": "2024",
-            "link": "bayuadnyana.vercel.app",
+            "link": "https://bayuadnyana.vercel.app",
             "linkTitle": "bayuadnyana.vercel.app",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores tempora unde dolorum, earum corrupti ipsa debitis quod. Consequuntur, ipsa nesciunt, dolorem, distinctio debitis nemo magni facere quidem a quos mollitia?",
+            "description": "When creating this ePortfolio, the development was split into two phases, the second phase is developing the site. This site was developed on NextJS and TailwindCSS. The scale of site is relatively small so everything is stored locally. The site uses google sheets to store all messages on the contact page.",
             "client": "Bayu Adnyana",
-            "tags": ["Personal", "React", "Self Initiated"]
+            "tags": ["Personal", "Self Initiated", "NextJS", "TailwindCSS"]
         }
     ],
     "creative": [
         {
-            "id": 1,
-            "imgSrc": "/placeholderImage.jpg",
-            "imgAlt": "placeholder image",
+            "id": 4,
+            "imgSrc": "/assets/portfolio_images/eportfolio_design.png",
+            "imgAlt": "Screen capture of the ePortfolio design on Figma",
             "name": "Personal ePortfolio Design",
             "year": "2024",
-            "link": "/",
-            "linkTitle": "placeholder",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores tempora unde dolorum, earum corrupti ipsa debitis quod. Consequuntur, ipsa nesciunt, dolorem, distinctio debitis nemo magni facere quidem a quos mollitia?",
+            "link": "https://drive.google.com/file/d/1YXsk1bM-m6qlarvANBGHfJpGoczoER8q/view?usp=sharing",
+            "linkTitle": "Link to design",
+            "description": "When creating this ePortfolio, the development was split into two phases, the first phase is designing the site. This site was designed on Figma, I taught myself UI/UX design using online resources like web articles and video tutorials.",
             "client": "Bayu Adnyana",
-            "tags": ["Personal", "Figma", "Design", "Self Initiated"]
-        },
-        {
-            "id": 2,
-            "imgSrc": "/placeholderImage.jpg",
-            "imgAlt": "placeholder image",
-            "name": "bayuarchive",
-            "year": "2023",
-            "link": "instagram.com/bayuarchive",
-            "linkTitle": "instagram.com/bayuarchive",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores tempora unde dolorum, earum corrupti ipsa debitis quod. Consequuntur, ipsa nesciunt, dolorem, distinctio debitis nemo magni facere quidem a quos mollitia?",
-            "client": "Bayu Adnyana",
-            "tags": ["Personal", "Video Editing", "Self Initiated"]
+            "tags": ["Personal", "Self Initiated", "Figma", "Design"]
         },
         {
             "id": 3,
-            "imgSrc": "/placeholderImage.jpg",
-            "imgAlt": "placeholder image",
+            "imgSrc": "/assets/portfolio_images/dungbeetleagency.png",
+            "imgAlt": "Screen capture of dungbeetleagency Instagram page",
             "name": "Dungbeetle.agency",
-            "year": "2023",
-            "link": "instagram.com/dungbeetleagency",
-            "linkTitle": "instagram.com/dungbeetleagency",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores tempora unde dolorum, earum corrupti ipsa debitis quod. Consequuntur, ipsa nesciunt, dolorem, distinctio debitis nemo magni facere quidem a quos mollitia?",
-            "client": "Bayu Adnyana",
-            "tags": ["Work", "Video Editing"]
+            "year": "2024",
+            "link": "https://instagram.com/dungbeetleagency",
+            "linkTitle": "dungbeetleagency Instagram",
+            "description": "Dungbeetle.agency is a social media marketing agency. I created reels for our client Wheatfields. I also shot and edited videos for the agency's Instagram page. Click on the link above to see my works for them.",
+            "client": "Dungbeetle.agency, Wheatfields",
+            "tags": ["Professional", "Client Work", "Video Editing"]
+        },
+        {
+            "id": 2,
+            "imgSrc": "/assets/portfolio_images/bayuarchive.png",
+            "imgAlt": "Screen capture of bayuarchive Instagram page",
+            "name": "bayuarchive",
+            "year": "2024",
+            "link": "https://instagram.com/bayuarchive",
+            "linkTitle": "bayuarchive Instagram",
+            "description": "bayuarchive is an Instagram page that is used to host my passion projects, including photography, video editing, programming, and more. As of now, it only contains a video edit of the 1998 WRC New Zealand stage. I will slowly add more to the page.",
+            "client": "-",
+            "tags": ["Personal", "Self Initiated", "Passion", "Video Editing"]
+        },
+        {
+            "id": 1,
+            "imgSrc": "/assets/portfolio_images/bayuquest_thumbnail.webp",
+            "imgAlt": "placeholder image",
+            "name": "Ayo Jaga Bali",
+            "year": "2019",
+            "link": "https://www.youtube.com/watch?v=LHs0cedbAsk&t",
+            "linkTitle": "Green School Bali Youtube",
+            "description": "\"Ayo Jaga Bali\" is a video campaign aimed to spread awareness of the importance of sorting waste. This project was made to complete the 8th grade graduation requirements at Green School Bali and was presented during Quest 2019. This project would not be completed without the help of my mentor, Adrian Tan. The full presentation can be seen on Green School Bali's Youtube.",
+            "client": "Green School Bali",
+            "tags": ["School Project", "Video Editing"]
         }
     ]
 }
