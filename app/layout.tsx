@@ -20,6 +20,18 @@ const playfair_display = Playfair_Display({
 export const metadata: Metadata = {
   title: "Bayu Adnyana ePortfolio",
   description: "",
+  icons: {
+    icon: [
+      '/favicon.ico?v=4',
+    ],
+    apple: [
+      '/apple-touch-icon.png?v=4',
+    ],
+    shortcut: [
+      '/apple-touch-icon.png'
+    ]
+  },
+  manifest: '/site.webmanifest'
 };
 
 export default function RootLayout({

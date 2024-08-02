@@ -1,7 +1,7 @@
 import { GrGithub, GrInstagram, GrLinkedin, GrMail } from "react-icons/gr";
 import NavLink from "../ui/NavLink";
 import Image from "next/image";
-import ProfilePicture from "@/public/profilePicture.png"
+import ProfilePicture from "@/public/assets/profilePicture.png"
 import SocialLink from "../ui/SocialLink";
 
 const Hero = () => {
