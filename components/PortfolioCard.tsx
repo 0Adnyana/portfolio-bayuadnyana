@@ -43,7 +43,7 @@ const PortfolioCard = (props: PortfolioCardProps) => {
 
       {/* expanded div */}
       <div className={cn("w-full h-fit px-6 py-4 space-x-4 flex flex-row justify-center rounded-xl bg-secondary ", isClicked ? "" : "hidden")}>
-        <Image src={props.imgSrc} alt={props.imgAlt} width={320} height={180} className="rounded-xl"></Image>
+        <Image src={props.imgSrc} alt={props.imgAlt} width={320} height={180} className="object-scale-down rounded-xl"></Image>
         <div className="min-h-full max-h-fit flex flex-col justify-between space-y-4">
           <div className="space-y-2">
             <BodyText>{props.description}</BodyText>
