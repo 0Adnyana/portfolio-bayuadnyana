@@ -1,6 +1,7 @@
 {
     "tech": [
         {
+            "collectionName": "tech",
             "id": 1,
             "imgSrc": "/assets/portfolio_images/eportfolio_screencapture.png",
             "imgAlt": "Screen capture of Bayu Adnyana ePortfolio",
@@ -8,13 +9,14 @@
             "year": "2024",
             "link": "https://bayuadnyana.vercel.app",
             "linkTitle": "bayuadnyana.vercel.app",
-            "description": "When creating this ePortfolio, the development was split into two phases, the second phase is developing the site. This site was developed on NextJS and TailwindCSS. The scale of site is relatively small so everything is stored locally. The site uses google sheets to store all messages on the contact page.",
+            "description": "The development of this ePortfolio was split into two phases, the second phase is developing the site. This site was built on NextJS and TailwindCSS. Everything is stored locally as the scale of the project is relatively small. This site uses google sheets to store all messages on the contact page.",
             "client": "Bayu Adnyana",
             "tags": ["Personal", "Self Initiated", "NextJS", "TailwindCSS"]
         }
     ],
     "creative": [
         {
+            "collectionName": "creative",
             "id": 4,
             "imgSrc": "/assets/portfolio_images/eportfolio_design.png",
             "imgAlt": "Screen capture of the ePortfolio design on Figma",
@@ -22,11 +24,12 @@
             "year": "2024",
             "link": "https://drive.google.com/file/d/1YXsk1bM-m6qlarvANBGHfJpGoczoER8q/view?usp=sharing",
             "linkTitle": "Link to design",
-            "description": "When creating this ePortfolio, the development was split into two phases, the first phase is designing the site. This site was designed on Figma, I taught myself UI/UX design using online resources like web articles and video tutorials.",
+            "description": "The development was split into two phases, the first phase is designing the site. This site was designed on Figma, I taught myself the basic principles of UI/UX design using online resources like web articles and video tutorials.",
             "client": "Bayu Adnyana",
             "tags": ["Personal", "Self Initiated", "Figma", "Design"]
         },
         {
+            "collectionName": "creative",
             "id": 3,
             "imgSrc": "/assets/portfolio_images/dungbeetleagency.png",
             "imgAlt": "Screen capture of dungbeetleagency Instagram page",
@@ -39,6 +42,7 @@
             "tags": ["Professional", "Client Work", "Video Editing"]
         },
         {
+            "collectionName": "creative",
             "id": 2,
             "imgSrc": "/assets/portfolio_images/bayuarchive.png",
             "imgAlt": "Screen capture of bayuarchive Instagram page",
@@ -51,6 +55,7 @@
             "tags": ["Personal", "Self Initiated", "Passion", "Video Editing"]
         },
         {
+            "collectionName": "creative",
             "id": 1,
             "imgSrc": "/assets/portfolio_images/bayuquest_thumbnail.webp",
             "imgAlt": "placeholder image",

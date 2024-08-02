@@ -20,7 +20,7 @@ const ListPortfolio = (props: ListPortfolioProps) => {
           data.map((data) => {
             return(
               <PortfolioCard 
-                key={data.id}
+                key={`${data.collectionName}_${data.id.toString()}`}
                 imgSrc= {data.imgSrc}
                 imgAlt= {data.imgAlt}
                 name= {data.name}
