@@ -61,8 +61,7 @@ const ContactSection: NextPage = () => {
 
           <textarea placeholder="Your message" className="h-32 placeholder:pl-1 bg-background-lighter p-1 resize-none" value={message} onChange={e => setMessage(e.target.value)} id="message"></textarea>
 
-          <button className="font-roboto_mono font-medium text-base mx-1 px-4 py-1.5  hover:scale-105 ease-in-out rounded-xl duration-200 cursor-pointer bg-accent max-w-full" type-submit>Send message</button>
-          {/* <Button className="bg-accent max-w-full" type="submit">Send message</Button> */}
+          <button className="font-roboto_mono font-medium text-base mx-1 px-4 py-1.5  hover:scale-105 ease-in-out rounded-xl duration-200 cursor-pointer bg-accent max-w-full" type='submit'>Send message</button>
         </form>
       </div>
       
@@ -81,16 +80,16 @@ const ContactSection: NextPage = () => {
         <div className="space-y-2">
           <Subtitle>Connect</Subtitle>
           <div className="space-y-2">
-            <SocialLink href="https://linkedin.com/in/bayuadnyana" className="flex flex-row space-x-1 items-center">
+            <SocialLink href="https://linkedin.com/in/bayuadnyana" className="flex flex-row space-x-1 items-center hover:scale-105">
               <GrLinkedin className="size-6"></GrLinkedin>
               <BodyText>bayuadnyana</BodyText>
             </SocialLink>
-            <SocialLink href="https://instagram.com/bayu.adnyana0" className="flex flex-row space-x-1 items-center">
+            <SocialLink href="https://instagram.com/bayu.adnyana0" className="flex flex-row space-x-1 items-center hover:scale-105">
               <GrInstagram className="size-6"></GrInstagram>
               <BodyText>bayu.adnyana0</BodyText>
             </SocialLink>
-            <SocialLink href="https://github.com/0Adnyana" className="flex flex-row space-x-1 items-center">
-              <GrGithub className="size-6"></GrGithub>
+            <SocialLink href="https://github.com/0Adnyana" className="flex flex-row space-x-1 items-center hover:scale-105">
+              <GrGithub className="size-6 "></GrGithub>
               <BodyText>0Adnyana</BodyText>
             </SocialLink>
           </div>

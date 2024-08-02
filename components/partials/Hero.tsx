@@ -17,15 +17,15 @@ const Hero = () => {
 
         {/* SOCIALS LINKS */}
         <div className="flex flex-row space-x-4">
-          <SocialLink href="https://github.com/0Adnyana">
+          <SocialLink href="https://github.com/0Adnyana" className="hover:scale-110">
             <GrGithub className="size-6"/>
           </SocialLink>
-          <SocialLink href="https://instagram.com/bayu.adnyana0">
+          <SocialLink href="https://instagram.com/bayu.adnyana0" className="hover:scale-110">
             <GrInstagram className="size-6"/>
           </SocialLink>
-          <SocialLink href="https://linkedin.com/in/bayuadnyana">
+          <SocialLink href="https://linkedin.com/in/bayuadnyana" className="hover:scale-110">
             <GrLinkedin className="size-6"/>
-          </SocialLink><SocialLink href="mailto:bayup.adnyana@gmail.com">
+          </SocialLink><SocialLink href="mailto:bayup.adnyana@gmail.com" className="hover:scale-110">
             <GrMail className="size-6"/>
           </SocialLink>
         </div>
