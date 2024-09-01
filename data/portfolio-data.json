@@ -1,73 +1,84 @@
 {
-    "tech": [
-        {
-            "collectionName": "tech",
-            "id": 1,
-            "imgSrc": "/assets/portfolio_images/eportfolio_screencapture.png",
-            "imgAlt": "Screen capture of Bayu Adnyana ePortfolio",
-            "name": "Personal ePortfolio Website",
-            "year": "2024",
-            "link": "https://bayuadnyana.vercel.app",
-            "linkTitle": "bayuadnyana.vercel.app",
-            "description": "The development of this ePortfolio was split into two phases, the second phase is developing the site. This site was built on NextJS and TailwindCSS. Everything is stored locally as the scale of the project is relatively small. This site uses google sheets to store all messages on the contact page.",
-            "client": "Bayu Adnyana",
-            "tags": ["Personal", "Self Initiated", "NextJS", "TailwindCSS"]
-        }
-    ],
-    "creative": [
-        {
-            "collectionName": "creative",
-            "id": 4,
-            "imgSrc": "/assets/portfolio_images/eportfolio_design.png",
-            "imgAlt": "Screen capture of the ePortfolio design on Figma",
-            "name": "Personal ePortfolio Design",
-            "year": "2024",
-            "link": "https://drive.google.com/file/d/1YXsk1bM-m6qlarvANBGHfJpGoczoER8q/view?usp=sharing",
-            "linkTitle": "Link to design",
-            "description": "The development of this ePortfolio was split into two phases, the first phase is designing the site. This site was designed on Figma, I taught myself the basic principles of UI/UX design using online resources like web articles and video tutorials.",
-            "client": "Bayu Adnyana",
-            "tags": ["Personal", "Self Initiated", "Figma", "Design"]
-        },
-        {
-            "collectionName": "creative",
-            "id": 3,
-            "imgSrc": "/assets/portfolio_images/dungbeetleagency.png",
-            "imgAlt": "Screen capture of dungbeetleagency Instagram page",
-            "name": "Dungbeetle.agency",
-            "year": "2024",
-            "link": "https://instagram.com/dungbeetleagency",
-            "linkTitle": "dungbeetleagency Instagram",
-            "description": "Dungbeetle.agency is a social media marketing agency. I created reels for our client Wheatfields. I also shot and edited videos for the agency's Instagram page. Click on the link above to see my works for them.",
-            "client": "Dungbeetle.agency, Wheatfields",
-            "tags": ["Professional", "Client Work", "Video Editing"]
-        },
-        {
-            "collectionName": "creative",
-            "id": 2,
-            "imgSrc": "/assets/portfolio_images/bayuarchive.png",
-            "imgAlt": "Screen capture of bayuarchive Instagram page",
-            "name": "bayuarchive",
-            "year": "2024",
-            "link": "https://instagram.com/bayuarchive",
-            "linkTitle": "bayuarchive Instagram",
-            "description": "bayuarchive is an Instagram page that is used to host my passion projects, including photography, video editing, programming, and more. As of now, it only contains a video edit of the 1998 WRC New Zealand stage. I will slowly add more to the page.",
-            "client": "-",
-            "tags": ["Personal", "Self Initiated", "Passion", "Video Editing"]
-        },
-        {
-            "collectionName": "creative",
-            "id": 1,
-            "imgSrc": "/assets/portfolio_images/bayuquest_thumbnail.webp",
-            "imgAlt": "placeholder image",
-            "name": "Ayo Jaga Bali",
-            "year": "2019",
-            "link": "https://www.youtube.com/watch?v=LHs0cedbAsk&t",
-            "linkTitle": "Green School Bali Youtube",
-            "description": "\"Ayo Jaga Bali\" is a video campaign aimed to spread awareness of the importance of sorting waste. This project was made to complete the 8th grade graduation requirements at Green School Bali and was presented during Quest 2019. This project would not be completed without the help of my mentor, Adrian Tan. The full presentation can be seen on Green School Bali's Youtube.",
-            "client": "Green School Bali",
-            "tags": ["School Project", "Video Editing"]
-        }
-    ]
+	"tech": [
+		{
+			"collectionName": "tech",
+			"id": 2,
+			"imgSrc": "/assets/portfolio_images/tz_converter.png",
+			"imgAlt": "Screen capture of Bayu Adnyana ePortfolio",
+			"name": "Timezone Converter App",
+			"year": "2024",
+			"link": "https://tz-0adnyana.vercel.app",
+			"linkTitle": "tz-0adnyana.vercel.app",
+			"description": "My pet project, it's used to learn new concepts. This is a timezone converter that flags dates that are on a public holiday. This app is work-in-progress and will always continue to expand. Built with NextJS and TailwindCSS. APIs used: Nager.date, TimeAPI, Photon.",
+			"client": "Bayu Adnyana",
+			"tags": ["Personal", "Self Initiated", "NextJS", "TailwindCSS", "API"]
+		},
+		{
+			"collectionName": "tech",
+			"id": 1,
+			"imgSrc": "/assets/portfolio_images/eportfolio_screencapture.png",
+			"imgAlt": "Screen capture of Bayu Adnyana ePortfolio",
+			"name": "Personal ePortfolio Website",
+			"year": "2024",
+			"link": "https://bayuadnyana.vercel.app",
+			"linkTitle": "bayuadnyana.vercel.app",
+			"description": "The development of this ePortfolio was split into two phases, the second phase is developing the site. This site was built on NextJS and TailwindCSS. Everything is stored locally as the scale of the project is relatively small. This site uses google sheets to store all messages on the contact page.",
+			"client": "Bayu Adnyana",
+			"tags": ["Personal", "Self Initiated", "NextJS", "TailwindCSS"]
+		}
+	],
+	"creative": [
+		{
+			"collectionName": "creative",
+			"id": 4,
+			"imgSrc": "/assets/portfolio_images/eportfolio_design.png",
+			"imgAlt": "Screen capture of the ePortfolio design on Figma",
+			"name": "Personal ePortfolio Design",
+			"year": "2024",
+			"link": "https://drive.google.com/file/d/1YXsk1bM-m6qlarvANBGHfJpGoczoER8q/view?usp=sharing",
+			"linkTitle": "Link to design",
+			"description": "The development of this ePortfolio was split into two phases, the first phase is designing the site. This site was designed on Figma, I taught myself the basic principles of UI/UX design using online resources like web articles and video tutorials.",
+			"client": "Bayu Adnyana",
+			"tags": ["Personal", "Self Initiated", "Figma", "Design"]
+		},
+		{
+			"collectionName": "creative",
+			"id": 3,
+			"imgSrc": "/assets/portfolio_images/dungbeetleagency.png",
+			"imgAlt": "Screen capture of dungbeetleagency Instagram page",
+			"name": "Dungbeetle.agency",
+			"year": "2024",
+			"link": "https://instagram.com/dungbeetleagency",
+			"linkTitle": "dungbeetleagency Instagram",
+			"description": "Dungbeetle.agency is a social media marketing agency. I created reels for our client Wheatfields. I also shot and edited videos for the agency's Instagram page. Click on the link above to see my works for them.",
+			"client": "Dungbeetle.agency, Wheatfields",
+			"tags": ["Professional", "Client Work", "Video Editing"]
+		},
+		{
+			"collectionName": "creative",
+			"id": 2,
+			"imgSrc": "/assets/portfolio_images/bayuarchive.png",
+			"imgAlt": "Screen capture of bayuarchive Instagram page",
+			"name": "bayuarchive",
+			"year": "2024",
+			"link": "https://instagram.com/bayuarchive",
+			"linkTitle": "bayuarchive Instagram",
+			"description": "bayuarchive is an Instagram page that is used to host my passion projects, including photography, video editing, programming, and more. As of now, it only contains a video edit of the 1998 WRC New Zealand stage. I will slowly add more to the page.",
+			"client": "-",
+			"tags": ["Personal", "Self Initiated", "Passion", "Video Editing"]
+		},
+		{
+			"collectionName": "creative",
+			"id": 1,
+			"imgSrc": "/assets/portfolio_images/bayuquest_thumbnail.webp",
+			"imgAlt": "placeholder image",
+			"name": "Ayo Jaga Bali",
+			"year": "2019",
+			"link": "https://www.youtube.com/watch?v=LHs0cedbAsk&t",
+			"linkTitle": "Green School Bali Youtube",
+			"description": "\"Ayo Jaga Bali\" is a video campaign aimed to spread awareness of the importance of sorting waste. This project was made to complete the 8th grade graduation requirements at Green School Bali and was presented during Quest 2019. This project would not be completed without the help of my mentor, Adrian Tan. The full presentation can be seen on Green School Bali's Youtube.",
+			"client": "Green School Bali",
+			"tags": ["School Project", "Video Editing"]
+		}
+	]
 }
-
-
