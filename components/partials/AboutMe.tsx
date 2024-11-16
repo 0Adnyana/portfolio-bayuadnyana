@@ -12,21 +12,12 @@ const AboutMe = () => {
 				<SectionTitle title="About Me"></SectionTitle>
 				<div className="flex flex-col space-y-4">
 					<p className="font-roboto font-normal text-base text-foreground text-justify">
-						I’m Bayu, an IT student, aspiring developer, tech enthusiast, and most importantly, a lifelong learner. I’m
-						pursuing my degree in Information Technology at ITB STIKOM Bali, where I’m actively involved in the
-						International Volunteer and Programming Club. Beyond formal education, I’m a dedicated self-learner,
-						constantly seeking online resources to expand my knowledge and apply it to real-world projects. This drive
-						has led me to master creative software like Adobe Photoshop, Adobe Premiere Pro, and Figma, as well as
-						develop web apps using frameworks such as NextJS and TailwindCSS—tools I’ve used in creating my web
-						portfolio and a Timezone Converter app.
-					</p>
-					<p className="font-roboto font-normal text-base text-foreground text-justify">
-						Driven by my belief in learning a little bit of everything in tech, I’ve also cultivated an interest in
-						Machine Learning and Cybersecurity, which I find both fascinating and full of potential. My passion for
-						problem-solving extends to Competitive Programming on platforms like LeetCode, and it has sparked a growing
-						curiosity about Capture the Flag (CTF) challenges. As I continue to hone my skills in programming and
-						technology, I’m committed to exploring these fields further and making meaningful contributions in the
-						future.
+						Hello, I’m Bayu—an IT student, aspiring developer, and lifelong learner with a passion for tech. Currently
+						studying Information Technology at ITB STIKOM Bali, I actively contribute to the International Volunteer and
+						Programming Club. My self-driven approach to learning has led me to master tools like Adobe Photoshop,
+						Premiere Pro, and Figma, and build web apps with NextJS and TailwindCSS, including my web portfolio and a
+						Timezone Converter app. With interests in Machine Learning, Cybersecurity, and Competitive Programming, I’m
+						committed to growing my skills and exploring new ways to make a meaningful impact in tech.
 					</p>
 				</div>
 			</div>
